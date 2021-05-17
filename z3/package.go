@@ -58,7 +58,7 @@ import "C"
 
 func boolToZ3(b bool) C.Z3_bool {
 	if b {
-		return C.Z3_TRUE
+		return true
 	}
 	return false
 }
